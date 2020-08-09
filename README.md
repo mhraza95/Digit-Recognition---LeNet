@@ -1,6 +1,7 @@
 # Digit-Recognition-LeNet
 Digit Recognition using LeNet – Convolutional Neural Network in Python
-## The LeNet architecture
+## The LeNet architecture 😍
+
 <img src="https://github.com/mhraza95/Digit-Recognition-LeNet/blob/master/lenet_architecture-768x226.png" />
 
 The LeNet architecture is an excellent “first architecture” for Convolutional Neural Networks (especially when trained on the MNIST dataset, an image dataset for handwritten digit recognition).
@@ -14,7 +15,7 @@ LeNet - Convolutional Neural Network in Python
 
 INPUT => CONV => RELU => POOL => CONV => RELU => POOL => FC => RELU => FC
 
-## Creating the LeNet driver script
+## Creating the LeNet driver script 👇
 
 Now that we have implemented the LeNet Convolutional Neural Network architecture using Python + Keras, it’s time to define the lenet_mnist.py
   driver script which will handle:
@@ -30,7 +31,7 @@ Now that we have implemented the LeNet Convolutional Neural Network architecture
     Optionally saving the serialized network weights to disk so that it can be reused (without having to re-train the network).
     Displaying visual examples of the network output to demonstrate that our implementaiton is indeed working properly.
 
-Three optional command line arguments, each of which are detailed below:
+Three optional command line arguments, each of which are detailed below: 👇
 
     --save-model
      : An indicator variable, used to specify whether or not we should save our model to disk after training LeNet.
@@ -46,7 +47,7 @@ Three optional command line arguments, each of which are detailed below:
       should point to where the pre-existing weights file lives on our system.
 
 
-## Training LeNet with Python and Keras
+## Training LeNet with Python and Keras 🤗
 
 you can train LeNet on MNIST by executing the following command:
 
@@ -54,8 +55,13 @@ LeNet - Convolutional Neural Network in Python
 
 <code> $ python lenet_mnist.py --save-model 1 --weights output/lenet_weights.hdf5 </code>
 
+## Training Model Screenshot 💻
+
 <img src="https://github.com/mhraza95/Digit-Recognition-LeNet/blob/master/Capture%2001.PNG" />
 <img src="https://github.com/mhraza95/Digit-Recognition-LeNet/blob/master/Capture%2002.PNG" />
+
+## Digit Prediction Screenshot 💻
+
 <img src="https://github.com/mhraza95/Digit-Recognition-LeNet/blob/master/Capture%2003.PNG" />
 
 
