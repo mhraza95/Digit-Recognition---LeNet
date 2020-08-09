@@ -19,10 +19,14 @@ INPUT => CONV => RELU => POOL => CONV => RELU => POOL => FC => RELU => FC
 Now that we have implemented the LeNet Convolutional Neural Network architecture using Python + Keras, it’s time to define the lenet_mnist.py
   driver script which will handle:
 
-    Loading the MNIST dataset.
-    Partitioning MNIST into training and testing splits.
-    Loading and compiling the LeNet architecture.
-    Training the network.
+    1. Loading the MNIST dataset.
+    
+    2. Partitioning MNIST into training and testing splits.
+    
+    3. Loading and compiling the LeNet architecture.
+    
+    4. Training the network.
+    
     Optionally saving the serialized network weights to disk so that it can be reused (without having to re-train the network).
     Displaying visual examples of the network output to demonstrate that our implementaiton is indeed working properly.
 
