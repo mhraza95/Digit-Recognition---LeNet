@@ -11,6 +11,7 @@ In many ways, LeNet + MNIST is the “Hello, World” equivalent of Deep Learnin
 
 The LeNet architecture consists of the following layers:
 LeNet - Convolutional Neural Network in Python
+
 INPUT => CONV => RELU => POOL => CONV => RELU => POOL => FC => RELU => FC
 
 <img src="https://github.com/mhraza95/Digit-Recognition-LeNet/blob/master/Capture%2001.PNG" />
