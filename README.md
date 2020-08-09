@@ -14,6 +14,11 @@ LeNet - Convolutional Neural Network in Python
 
 INPUT => CONV => RELU => POOL => CONV => RELU => POOL => FC => RELU => FC
 
+you can train LeNet on MNIST by executing the following command:
+
+LeNet - Convolutional Neural Network in Python
+
+<code> $ python lenet_mnist.py --save-model 1 --weights output/lenet_weights.hdf5 </code>
 <img src="https://github.com/mhraza95/Digit-Recognition-LeNet/blob/master/Capture%2001.PNG" />
 <img src="https://github.com/mhraza95/Digit-Recognition-LeNet/blob/master/Capture%2002.PNG" />
 <img src="https://github.com/mhraza95/Digit-Recognition-LeNet/blob/master/Capture%2003.PNG" />
