@@ -30,6 +30,21 @@ Now that we have implemented the LeNet Convolutional Neural Network architecture
     Optionally saving the serialized network weights to disk so that it can be reused (without having to re-train the network).
     Displaying visual examples of the network output to demonstrate that our implementaiton is indeed working properly.
 
+Three optional command line arguments, each of which are detailed below:
+
+    --save-model
+     : An indicator variable, used to specify whether or not we should save our model to disk after training LeNet.
+     
+    --load-model
+     : Another indicator variable, this time specifying whether or not we should load a pre-trained model from disk.
+     
+    --weights
+     : In the case that --save-model
+      is supplied, the --weights-path
+      should point to where we want to save the serialized model. And in the case that --load-model
+      is supplied, the --weights
+      should point to where the pre-existing weights file lives on our system.
+
 
 ## Training LeNet with Python and Keras
 
