@@ -14,11 +14,27 @@ LeNet - Convolutional Neural Network in Python
 
 INPUT => CONV => RELU => POOL => CONV => RELU => POOL => FC => RELU => FC
 
+## Creating the LeNet driver script
+
+Now that we have implemented the LeNet Convolutional Neural Network architecture using Python + Keras, it’s time to define the lenet_mnist.py
+  driver script which will handle:
+
+    Loading the MNIST dataset.
+    Partitioning MNIST into training and testing splits.
+    Loading and compiling the LeNet architecture.
+    Training the network.
+    Optionally saving the serialized network weights to disk so that it can be reused (without having to re-train the network).
+    Displaying visual examples of the network output to demonstrate that our implementaiton is indeed working properly.
+
+
+## Training LeNet with Python and Keras
+
 you can train LeNet on MNIST by executing the following command:
 
 LeNet - Convolutional Neural Network in Python
 
 <code> $ python lenet_mnist.py --save-model 1 --weights output/lenet_weights.hdf5 </code>
+
 <img src="https://github.com/mhraza95/Digit-Recognition-LeNet/blob/master/Capture%2001.PNG" />
 <img src="https://github.com/mhraza95/Digit-Recognition-LeNet/blob/master/Capture%2002.PNG" />
 <img src="https://github.com/mhraza95/Digit-Recognition-LeNet/blob/master/Capture%2003.PNG" />
