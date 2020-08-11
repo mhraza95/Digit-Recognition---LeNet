@@ -69,8 +69,8 @@ LeNet - Convolutional Neural Network in Python
 
 If you like my post please follow me to read my latest post on programming and technology.
 
-<a href="https://coderzpy.com/"> coderzpy.com </a>
+<a target="_blank" href="https://coderzpy.com/"> coderzpy.com </a>
 
-Instagram
+<a target="_blank" href="https://www.instagram.com/coderz.py/"> Instagram </a>
 
-Facebook
+<a target="_blank" href="https://www.facebook.com/coderz.py"> Facebook </a>
