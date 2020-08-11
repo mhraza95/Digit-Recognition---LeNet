@@ -65,3 +65,12 @@ LeNet - Convolutional Neural Network in Python
 <img src="https://github.com/mhraza95/Digit-Recognition-LeNet/blob/master/Capture%2003.PNG" />
 
 
+## Follow Me ❤😊
+
+If you like my post please follow me to read my latest post on programming and technology.
+
+<a href="https://coderzpy.com/"> coderzpy.com </a>
+
+Instagram
+
+Facebook
