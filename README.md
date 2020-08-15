@@ -64,6 +64,9 @@ LeNet - Convolutional Neural Network in Python
 
 <img src="https://github.com/mhraza95/Digit-Recognition-LeNet/blob/master/Capture%2003.PNG" />
 
+## Recommended Reading
+
+<a target="_blank" href="https://coderzpy.com/cnn-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more/"> CNN Architectures </a>
 
 ## Follow Me ❤😊
 
